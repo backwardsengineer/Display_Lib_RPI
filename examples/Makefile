@@ -17,6 +17,7 @@
 # Display 11 = ST7735X  TFT LCD SPI
 # Display 12 = ST7789   TFT LCD SPI
 # Display 13 = ILI9341  TFT LCD SPI
+# Display 14 = ST7796   TFT LCD SPI
 # ==================================
 
 # ***********************************************
@@ -116,6 +117,15 @@
 
 # =========== XPT2046 touchscreen basic test ======
 #SRC=xpt2046/xpt_Test
+#=================================================
+
+# =============== ST7796 TFT LCD SPI =============
+SRC=st7796/Hello_world
+#SRC=st7789/Hello_world_SWSPI
+#SRC=st7789/Bitmap_Tests
+#SRC=st7789/Text_Graphics_Functions
+#SRC=st7789/Frame_rate_test_bmp
+#SRC=st7789/Frame_rate_test_two
 #=================================================
 
 # ************************************************
